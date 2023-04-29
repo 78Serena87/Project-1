@@ -1,0 +1,111 @@
+html, body {
+  height: 100%;
+  font-family: 'Cardo', serif;
+  background-color: #292929 ;
+}
+
+.Header {
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  background-color: white;
+}
+
+.Header div {
+  width: 20%;
+  margin: 20px 8px 20px;
+  padding: 15px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.fixed {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  height: 10%;
+  width: 100%;
+}
+
+#Home {
+  flex-grow: 1;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.4em;
+  font-family: 'Lobster', cursive;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  ont-family: 'Cardo', serif;
+  font-size: 1em;
+}
+
+a:hover {
+color:#00a37299;
+}
+  /* Header ends here ? */
+
+
+  /* top margin right margin bottom margin left margin*/
+
+  /* Gallery starts here */
+
+
+.Gallery2 {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  background-color: #292929;
+}
+
+.Image {
+  padding: 5px;
+  height: 90vh; 
+  margin-top: 2%;
+  margin-bottom: 1%;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+
+img {
+  height: 100%;
+}
+
+  /* Footer starts here */
+
+.icon {
+  color:#00a37299;
+}
+
+.icon:hover {
+  color:#ec89b899;
+}
+
+.Footer {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  background-color: white;
+  bottom: 0%;
+  left: 0%;
+  height: 8%;
+  width: 100%;
+}
+
+.foot-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Icons {
+  height: 10px;
+  display: flex; 
+  justify-content: space-around;
+}
+  /* Footer */
